@@ -80,6 +80,7 @@ searchButton.addEventListener("click",()=>{
     document.querySelector('.search-option').classList.add('show-res-input')
     document.querySelector('.arrow').classList.add('show-res')
     itemScroll.classList.add('res-mobile')
+    document.querySelector('main .video-content').classList.add('mg')
 })
 
 document.querySelector('.arrow').addEventListener('click',()=>{

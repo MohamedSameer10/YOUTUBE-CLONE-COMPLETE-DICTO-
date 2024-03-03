@@ -652,6 +652,15 @@ aside.sidebar .link{
         border-radius: 2rem;
     }
 
+    nav .show-res-input{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .main-contents .video-content.mg{
+        margin-top: 0rem;
+    }
+
     nav .show-res{
         display: block;
         font-size: 2rem;
