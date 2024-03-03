@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/youtube.png">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Youtube Clone | SamProg</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <nav>
+            <div class="menu">
+                <i class='bx bx-menu bghover'></i>
+                <div class="icon flex-center">
+                    <img src="./assets/youtube.png">
+                    <h1 style="font-family: Oswald, sans-serif;">YouTube<sup>IN</sup></h1>
+                </div>
+            </div>
+
+            <div class="search-option">
+                <i class='bx bx-left-arrow-alt arrow'></i>
+                <input type="text" id="user-input" placeholder="Search">
+                <i class='bx bx-search-alt-2 show'></i>
+                <div class="search flex-center bghover">
+                    <i class='bx bx-search-alt-2'></i>
+                </div>
+                <p class="search-text">Search</p>
+                <div class="mic flex-center bghover">
+                    <i class='bx bxs-microphone'></i>
+                </div>
+                <p class="mic-text">Search with your voice</p>
+            </div>
+
+            <div class="user">
+                <i class='bx bx-video-plus bghover com'></i>
+                <p class="create">Create</p>
+                <i class='bx bx-bell bghover bell com'></i>
+                <p class="notifiy">Notification</p>
+                <img src="./assets/current.png" class="com">
+            </div>
+        </nav>
+
+        <main>
+            <aside class="side-bar">
+                <div class="aside-contents">
+
+                    <div class="menu">
+                        <i class='bx bx-menu bghover'></i>
+                        <div class="icon flex-center">
+                            <img src="./assets/youtube.png">
+                            <h1 style="font-family: Oswald, sans-serif;">YouTube<sup>IN</sup></h1>
+                        </div>
+                    </div>
+        
+                    <ul class="link">
+                        <li class="active">
+                            <i class='bx bxs-home'></i>
+                            <span>Home</span>
+                        </li>
+                        <li>
+                            <i class='bx bxl-slack'></i>
+                            <span>Shorts</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-movie-play'></i>
+                            <span>Subscription</span>
+                        </li>
+                    </ul>
+                    <ul class="link hide">
+                        <h2>You <i class='bx bx-chevron-right'></i></h2>
+                        <li>
+                            <i class='bx bx-user-pin'></i>
+                            <span>Your Channel</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-history' ></i>
+                            <span>History</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-play'></i>
+                            <span>Your Videos</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-time-five' ></i>
+                            <span>Watch Later</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-like' ></i>
+                            <span>Liked Videos</span>
+                        </li>
+                    </ul>
+                    <ul class="link hide" id="explore">
+                        <h2>Explore</h2>
+                        <li>
+                            <i class='bx bxs-hot'></i>
+                            <span>Trending</span>
+                        </li>
+                        <li>
+                            <i class='bx bxs-shopping-bag'></i>
+                            <span>Shopping</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-music' ></i>
+                            <span>Music</span>
+                        </li>
+                        <li>
+                            <i class='bx bxs-film' ></i>
+                            <span>Films</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-broadcast' ></i>
+                            <span>Live</span>
+                        </li>
+                        <li>
+                            <i class='bx bxs-game'></i>
+                            <span>Gaming</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-news' ></i>
+                            <span>News</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-cricket-ball'></i>
+                            <span>Sport</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-bulb' ></i>
+                            <span>Learning</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-cool' ></i>
+                            <span>Fashion & beauty</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-podcast' ></i>
+                            <span>Podcasts</span>
+                        </li>
+                    </ul>
+                    <ul class="link hide">
+                        <h2>More From YouTube</h2>
+                        <li>
+                            <img src="./assets/youtube.png" alt="">
+                            <span>YouTube Premium</span>
+                        </li>
+                        <li>
+                            <img src="./assets/studio.png" alt="">
+                            <span>YouTube Studio</span>
+                        </li>
+                        <li>
+                            <img src="./assets/youtube-music.png" alt="">
+                            <span>YouTube Music</span>
+                        </li>
+                        <li>
+                            <img src="./assets/kids.png" alt="">
+                            <span>YouTube Kids</span>
+                        </li>
+                    </ul>
+                    <ul class="link hide" style="margin-top: 0.7rem;">
+                        <li>
+                            <i class='bx bxs-cog'></i>
+                            <span>Settings</span>
+                        </li>
+                        <li>
+                            <i class='bx bxs-flag-alt' ></i>
+                            <span>Report history</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-help-circle' ></i>
+                            <span>Help</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-message-error'></i>
+                            <span>Send feedback</span>
+                        </li>
+                    </ul>
+                    <div class="info hide">
+                        <div class="top info-content">
+                            <a href="#">About</a>
+                            <a href="#">Press</a>
+                            <a href="#">Copyright</a>
+                            <a href="#">Contact Us</a>
+                            <a href="#">Creator</a>
+                            <a href="#">Advertise</a>
+                            <a href="#">Developers</a>
+                        </div>
+                        <div class="bottom info-content">
+                            <a href="#">Terms</a>
+                            <a href="#">Privacy</a>
+                            <a href="#">Policy & Safety</a>
+                            <a href="#">How Youtube Works</a>
+                            <a href="#">Test new features</a>
+                        </div>
+                    </div>
+
+                    <div class="sign hide">
+                        <p><a href="#">&copy; 2024 Google LLC</a></p>
+                    </div>
+                </div>
+            </aside>
+
+            <div class="main-contents">
+                <div class="top-scroll-items"></div>
+                <div class="video-content"></div>
+            </div>
+        </main>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
