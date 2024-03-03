@@ -7,7 +7,7 @@ const mic = document.querySelector('.mic')
 const userInput = document.querySelector("input")
 const searchButton = document.querySelector(".search")
 const videoContainer = document.querySelector('.video-content')
-const APIKey = "AIzaSyC7HeIzO2DHy7whLoGClzNzDE7U3SKi2Xc"
+const APIKey = "AIzaSyAW2cM1fjBTf2te1e0XuITijVW57HfJ3s8"
 
 const itemsForScroll = [
     "All",
