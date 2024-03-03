@@ -89,6 +89,7 @@ document.querySelector('.arrow').addEventListener('click',()=>{
     document.querySelector('.search-option').classList.remove('show-res-input')
     document.querySelector('.arrow').classList.remove('show-res')
     itemScroll.classList.remove('res-mobile')
+    document.querySelector('main .video-content').classList.remove('mg')
 })
 
 function search(){
